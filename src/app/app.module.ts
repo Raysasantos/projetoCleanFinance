@@ -9,6 +9,9 @@ import { FooterComponent } from './footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { NnnComponent } from './nnn/nnn.component';
+
 
 
 
@@ -18,7 +21,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppComponent,
     CabecalhoComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CadastroComponent,
+    NnnComponent,
 
   ],
   imports: [

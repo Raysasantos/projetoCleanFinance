@@ -2,11 +2,6 @@
 <div  class = "example-button-row" > 
     <img src="">
 
-  <button  mat-button  color = "Black" >Clientes</button > 
-  <button  mat-button  color = "Black" > Cartões </button > 
-  <button  mat-button  color = "Black" > Compras </button > 
-  <button  mat-button  desabilitado > Relatórios </button > 
-  <a  mat-button  routerLink = " ." > Link </a > 
     
     <p>
         <mat-toolbar color="primary">
@@ -14,18 +9,33 @@
             <div class="logo">
                 <img src="assets\imagens\icons8-material-ui-96.png" alt="logo">
              </div>          
-        <div class="container">
-            <p>Clean Finance</p>
-          </div>
-          
-          
+
+        <div id="container">
+        <h1>Clean Finance</h1>
+        <section class="cadastre-se"> <a mat-stroked-button href="https://www.google.com/" target="_blank">Cadastre-se</a></section>
+        <section class="login"> <a mat-stroked-button href="https://www.google.com/" target="_blank">Login</a></section>
+        <section class="senha"> <a mat-stroked-button href="https://www.google.com/" target="_blank">Senha</a></section>
+     
+      </div>
+              
             <span class="example-spacer"></span>
             <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
               <mat-icon>menu</mat-icon>
             </button>
           </mat-toolbar-row>
+          
         </mat-toolbar>
       </p>
 
-  
 
+  
+      <section>
+        <div class="example-label">Listagem de Clientes</div>
+        <div class="example-button-row">
+          <button mat-stroked-button >Clientes</button>
+          <button mat-stroked-button >Cartões</button>
+          <button mat-stroked-button >Compras</button>
+          <button mat-stroked-button >Relatórios</button>
+  
+        </div>
+      </section>

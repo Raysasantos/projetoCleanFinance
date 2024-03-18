@@ -6,7 +6,6 @@ import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [ 
   {path: '', component: HomeComponent},
-  {path: 'home', component:HomeComponent},
   {path: 'cabecalho', component: CabecalhoComponent},
   {path: 'footer', component: FooterComponent}
   

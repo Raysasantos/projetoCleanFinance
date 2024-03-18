@@ -2,14 +2,18 @@
     flex: 1 1 auto;
     color: blue;
   }
-
-.container{
-
-  justify-content: right;
-    text-align: right;
-    align-items: right;
+  .mat-toolbar.mat-primary.mat-toolbar-multiple-rows {
+    border: 2px solid;
+    border-radius: 25px;
+    display: grid;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
     padding-right: 30;
     margin-right: 30;
+  }
+
+#container{
 
 }
 
@@ -31,4 +35,31 @@
     padding-left: 0;
   }
 }
-  
+example-label{
+  width: 500px; 
+  height: 200px; 
+  border: none;
+  fill-rule: nonzero;
+  stroke: none;
+  margin-right: 19px;
+  padding-right: 19px;
+
+}
+
+.cadastre-se{
+ background-color: #90ee90;
+ float: right;
+
+}
+
+.login{
+  background-color: #90ee90;
+  float: right;
+ 
+ }
+
+ .lenha{
+  background-color: #90ee90;
+  float: right;
+ 
+ }
