@@ -4,7 +4,7 @@
 @import url(footer.css);
 
 :root {
-  --text-color: #667085;
+  --text-color: black;
   --main-color: #859de1;
   --title-color: #101828;
 }
